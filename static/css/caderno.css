@@ -1,0 +1,96 @@
+.caderno {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-image: url("../img/background-grid01.jpg");
+}
+
+.caderno__titulo {
+    padding: 0.5rem;
+    width: 50vw;
+    text-align: center;
+}
+
+.caderno__titulo___texto {
+    color: white;
+    font-size: 5rem;
+    font-family: 'Rye', cursive;
+    text-align: center;
+    text-shadow: 5px 1px 1px darkred;
+}
+
+.caderno__instrucoes {
+    padding: 1rem;
+    background-color: #000;
+    position: fixed;
+    width: 50vw;
+    bottom: 0;
+}
+
+.caderno__instrucoes___texto {
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Special Elite', cursive;
+    text-align: center;
+}
+
+.caderno__adicionar-nome {
+    margin-top: 1rem;
+}
+
+.caderno__adicionar-nome___form {
+    text-align: center;
+}
+
+.caderno__adicionar-nome___form____input {
+    font-size: 1.5rem;
+}
+
+#input-nome {
+    width: 70%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Special Elite', cursive;
+}
+
+#input-enviar {
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 0.65rem 0.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-family: 'Special Elite', cursive;
+}
+
+#input-enviar:hover {
+    box-shadow: 0 0 10px darkred;
+}
+
+@media (min-width:0) and (max-width:768px) {
+    .caderno {
+        height: 100vh;
+    }
+
+    .caderno__instrucoes {
+        width: 100vw;
+        padding: 0.2rem;
+    }
+
+    .caderno__instrucoes___texto {
+        font-size: 1rem;
+    }
+
+    .caderno__titulo {
+        width: 100vw;
+        padding: 0.2rem;
+    }
+
+    .caderno__titulo___texto {
+        font-size: 2rem;
+    }
+
+    .caderno__adicionar-nome {
+        margin-top: 0;
+    }
+}
